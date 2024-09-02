@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="sign.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <h1 id="header">High <span>Cloud</span></h1>
+    <h2 id="h2"><i>Join the universe of fashion...</i></h2>
+    <div class="main">
+        <h1>Sign up</h1>
+        <div class="names">
+          <div class="first">
+            <input type="text" id="name" placeholder="First-name" oninput="firstName()">
+            <p id="namep"></p>
+          </div>
+          <div class="last">
+            <input type="text" id="name2" placeholder="First-name" oninput="lastName()">
+            <p id="name2p"></p>
+          </div>
+        </div>
+        <input type="email" id="gmail" placeholder="Gmail" oninput="gMail()">
+        <p id="gmailp"></p>
+        <div class="pass">
+            <div class="show">
+                <input type="password" placeholder="Password" id="password" oninput="passWord()"><button onclick="check()"><span class="material-symbols-outlined">visibility</span></button>
+            </div>
+            <div class="show">
+                <input type="password" placeholder="Password" id="password2" oninput="passWord2()"><button onclick="check2()"><span class="material-symbols-outlined">visibility</span></button>
+            </div>
+        </div>
+        <p id="passp"></p>
+        <div class="url">
+          <input type="email" id="url" placeholder="Enter your URL link. *Not-Required" oninput="urllink()">
+          <p id="urlp"></p>
+        </div>
+        <div class="terms">
+          <a href=""><input type="checkbox">Terms and Agreement</a>
+        </div>
+        <footer><button onclick="sign()">Sign In</button></footer>
+    </div>
+
+
+    <script src="sign.js"></script>
+</body>
+</html>

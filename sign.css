@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    font-family: "Zilla Slab", serif;}
+body{
+    background-color: rgb(247, 243, 243);
+}
+.main{
+    width: 444px;
+    height: 444px;
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+    justify-content: center;
+    padding: 3px 11px;
+}
+#header{
+    font-family: "Matemasie", sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+#h2{
+    text-align: center;
+    margin-top: -14px;
+}
+.main h1{
+    text-align: center;
+}
+.names{
+    display: flex;
+    justify-content: space-between;
+}
+.names input{
+    width: 202px;
+    height: 39px;
+    border: 0;
+    border-bottom: 2px solid rgb(247, 243, 243);
+    outline: none;
+    font-size: 17px;
+}
+#gmail{
+    width: 419px;
+    height: 39px;
+    border: 0;
+    border-bottom: 2px solid rgb(247, 243, 243);
+    outline: none;
+    font-size: 17px;
+    margin-top: 11px;
+}
+.names input:focus, #gmail:focus, .show input:focus .show{
+    border-bottom: 2px solid black;
+    transition: border ease-in 0.5s ;
+}
+::placeholder{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Zilla Slab", serif;
+}
+.pass{
+    display: flex;
+    width: 419px;
+    height: 40px;
+    justify-content: space-between;
+    margin-top: 33px;
+}
+.show input{
+    width: 166px;
+    height: 42px;
+    outline: none;
+    font-size: 17px;
+    border: 0;
+}
+.show{
+    width: 202px;
+    height: 44px;
+    padding-top: -5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(247, 243, 243);
+}
+.show button{
+    background: transparent;
+    border: none;
+    padding-top: 9px;
+    opacity: 0.7;
+}
+.show input:focus{
+    border-bottom: 2px solid black;
+    transition: border ease-in 0.5s ;
+}
+.show button:hover{
+    opacity: 1;
+}
+.terms{
+    width: auto;
+    margin-top: 22px;
+}
+a{
+    color: lightblue;
+}
+p{
+    margin-bottom: -3px;
+    color: red;
+}
+span{
+    font-family: "Matemasie", sans-serif;
+    color: lightblue;
+}
+.url input{
+    width: 419px;
+    height: 33px;
+    margin-top: 15px;
+    outline: none;
+    font-size: 22px;
+}
+.url input:focus{
+    border: 2px solid black;
+    transition: border ease-in 0.5s ;
+    border-radius: 5px;
+}
+footer button{
+    width: 111px;
+    height: 33px;
+    border-radius: 22px;
+    border: 0;
+    background:linear-gradient(lightblue, lightblue, white, white) ;
+    font-weight: 700;
+    font-size: 17px;
+    color: rgb(145, 161, 190);
+    display: block;
+    margin: auto;
+    margin-top: 23px;
+}
